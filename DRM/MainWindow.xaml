@@ -6,7 +6,6 @@
         <Menu Height="19" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="34">
             <MenuItem Header="File">
                 <MenuItem Header="Open"  x:Name="Open" Click="OnOpen"/>
-                <MenuItem Header="Exit" />
             </MenuItem>
         </Menu>
         <Image x:Name="Img1" Stretch="UniformToFill" />
