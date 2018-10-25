@@ -1,0 +1,9 @@
+LIBRARY
+
+EXPORTS
+    ; Explicit exports can go here
+     KeyboardProc
+	 MouseProc
+	 SetWindowHandle
+	 InstallHook
+	 UninstallHook

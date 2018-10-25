@@ -8,6 +8,6 @@
                 <MenuItem Header="Open"  x:Name="Open" Click="OnOpen"/>
             </MenuItem>
         </Menu>
-        <Image x:Name="Img1" Stretch="UniformToFill" />
+        <Image x:Name="Img1" Stretch="UniformToFill" Margin="0,25,0,0" />
     </Grid>
 </Window>
