@@ -1,0 +1,14 @@
+﻿<Window x:Class="DRM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu Height="19" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="34">
+            <MenuItem Header="File">
+                <MenuItem Header="Open"  x:Name="Open" Click="OnOpen"/>
+                <MenuItem Header="Exit" />
+            </MenuItem>
+        </Menu>
+        <Image x:Name="Img1" Stretch="UniformToFill" />
+    </Grid>
+</Window>
